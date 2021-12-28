@@ -153,13 +153,15 @@ presets_strain = [
     {'label': "Beta (B.1.351 South Africa)", 'value': 1.501},
     {'label': "Gamma (P.1 Brazil)", 'value': 2.001},  # See viral_strain_marks for why this isn't 2.0
     {'label': "Delta (B.1.617.2 India)", 'value': 2.5},
+    {'label': "Omicron (B.1.1.529 South Africa)", 'value': 7.5}, # 2-3x Delta
 ]
 viral_strain_marks = {
     1: {'label': 'Wildtype', 'style': {'max-width': '50px'}},
     # 1.2: {'label': 'Cali-fornia', 'style': {'max-width': '50px'}},
-#     1.5: {'label': 'Alpha, Beta', 'style': {'max-width': '50px'}},
-#     2.001: {'label': 'Gamma', 'style': {'max-width': '50px'}},  # For some reason, 2.0 makes the label invisible
+    # 1.5: {'label': 'Alpha, Beta', 'style': {'max-width': '50px'}},
+    # 2.001: {'label': 'Gamma', 'style': {'max-width': '50px'}},  # For some reason, 2.0 makes the label invisible
     2.5: {'label': 'Delta', 'style': {'max-width': '50px'}},
+    7.5: {'label': 'Omicron', 'style': {'max-width': '50px'}}, #2-3x Delta
 }
 
 
